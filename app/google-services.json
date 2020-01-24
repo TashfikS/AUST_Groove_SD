@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1048723028055",
+    "firebase_url": "https://austgroove.firebaseio.com",
+    "project_id": "austgroove",
+    "storage_bucket": "austgroove.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048723028055:android:52f2ad4bbf0a7e97",
+        "android_client_info": {
+          "package_name": "com.example.tasfi.aust_groove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048723028055-96a7gp02n23ro4ef9nbe3cbejh32vlv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tasfi.aust_groove",
+            "certificate_hash": "500c8b75b53c249bef01b9664395be4131efb08b"
+          }
+        },
+        {
+          "client_id": "1048723028055-12n8e347of84f69g9e1s6tjssm8ds6mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tasfi.aust_groove",
+            "certificate_hash": "8eb9f446c6e18ed4c51f16a472235d96f21a4fec"
+          }
+        },
+        {
+          "client_id": "1048723028055-uq7jpa4aqvduiah7naatdkragrsrgd0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnJ4gX7TCgeEeQwFKChUV82-5E_d65nL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048723028055-uq7jpa4aqvduiah7naatdkragrsrgd0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048723028055:android:a290e7e5b0026272",
+        "android_client_info": {
+          "package_name": "com.example.user.austgroove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048723028055-7232ht4ng4n6ismjfrk5b8ggpas0vo64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.austgroove",
+            "certificate_hash": "8eb9f446c6e18ed4c51f16a472235d96f21a4fec"
+          }
+        },
+        {
+          "client_id": "1048723028055-uq7jpa4aqvduiah7naatdkragrsrgd0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnJ4gX7TCgeEeQwFKChUV82-5E_d65nL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048723028055-uq7jpa4aqvduiah7naatdkragrsrgd0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reminder">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/item_toolbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Reminder"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/titleL"
+        android:layout_below="@id/item_toolbar"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:text="Task Name : "
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:text=" Name "
+            android:layout_marginTop="25dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/timeL"
+        android:gravity="center"
+        android:layout_below="@id/titleL"
+        android:layout_width="wrap_content"
+android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+
+            android:text="Time : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:text="TIME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@id/timeL"
+        android:layout_width="wrap_content"
+    android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:text="Date : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:text="DATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_item_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/plus"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/colorPrimaryDark"/>
+
+
+</RelativeLayout>
